@@ -8,7 +8,13 @@ Specifically a difference in width between 140-170m of more then 4-5mm is counte
 
 ### Example constriction
 
-![](images/Constriction.png) ![](images/Constriction_zoom.png)
+![](images/legend.png)
+| ![](images/Constriction.png) |![](images/Constriction_zoom.png)|
+| --- | --- |
+
+- B4 measurment happens before downcoiling
+- B5 measurment happens after downcoiling
+
 
 # Solution
 
@@ -45,4 +51,4 @@ We tried different models with the different under-sampling techniques and in th
 
 #### Feature Selection
 
-![features_graph](/images/Features_constriction.png)
+![features_graph](/images/features_graph.png?theme=light)
