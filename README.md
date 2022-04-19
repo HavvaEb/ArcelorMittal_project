@@ -4,6 +4,11 @@
 
 The client asked us to predict a fault occuring during the production process (width constriction), using only data known a priori.
 
+Specifically a difference in width between 140-170m of more then 4-5mm is counted as a constriction.
+
+### Example constriction
+
+![](images/Constriction.png) ![](images/Constriction_zoom.png)
 
 # Solution
 
