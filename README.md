@@ -51,4 +51,4 @@ We tried different models with the different under-sampling techniques and in th
 
 #### Feature Selection
 
-![features_graph](/images/features_graph.png?theme=light)
+![features_graph](/images/features_graph.png)
