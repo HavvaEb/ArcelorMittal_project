@@ -49,6 +49,28 @@ We tried different models with the different under-sampling techniques and in th
 
 ### Optimization
 
+#### Resampling (Downsampling)
+
+Because our dataset is unbalanced our models would be very baised towards one of the groups in classification.We used downsampling to reduce the amount of datapoints for non-constricted coils to balance out the dataset.
+
+
 #### Feature Selection
 
+To create the best model we graphed the different features in relation to the amount of constrictions and used this to select the features that look to have the most impact on constrictions
+
 ![features_graph](/images/features_graph.png)
+![features_constriction](/images/Features_constriction.png)
+
+
+### Model Evaluation
+
+Classification Report
+
+![](images/class_report.png)
+
+Confusion Matrix
+
+![](images/cf_matrix.png)
+
+
+
