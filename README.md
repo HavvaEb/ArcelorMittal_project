@@ -49,7 +49,7 @@ We tried different models with the different under-sampling techniques and in th
 
 ### Optimization
 
-#### Resampling (Downsampling)
+#### Resampling (**Downsampling**)
 
 Because our dataset is unbalanced our models would be very baised towards one of the groups in classification.We used downsampling to reduce the amount of datapoints for non-constricted coils to balance out the dataset.
 
