@@ -1,8 +1,9 @@
 # ArcelorMittal_project
 
-# Duration: 2 weeks
-  Deadline : 21/04/22 4:30 PM
-  Team challenge: Group project
+#project_timeline
+Duration: 2 weeks
+Deadline : 21/04/22 4:30 PM
+Team challenge: Group project
 
 # Problem 
 
