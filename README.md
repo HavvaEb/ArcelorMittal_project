@@ -1,10 +1,5 @@
 # ArcelorMittal_project
 
-#project_timeline
-Duration: 2 weeks
-Deadline : 21/04/22 4:30 PM
-Team challenge: Group project
-
 # Problem 
 
 The client asked us to predict a fault occuring during the production process (width constriction), using only data known a priori.
@@ -59,23 +54,37 @@ We tried different models with the different under-sampling techniques and in th
 Because our dataset is unbalanced our models would be very baised towards one of the groups in classification.We used downsampling to reduce the amount of datapoints for non-constricted coils to balance out the dataset.
 
 
-#### Feature Selection
+### Feature Selection
 
-To create the best model we graphed the different features in relation to the amount of constrictions and used this to select the features that look to have the most impact on constrictions
+To create the best model we graphed the different features in relation to the amount of constrictions and used this to select the features that look to have the most impact on constrictions.
 
 ![features_graph](/images/features_graph.png)
 ![features_constriction](/images/Features_constriction.png)
 
+#### Feature Importance
+
+When building our models we also looked at the importances of each feature so we could remove ones that had little impact.
+
+
+| Before | After |
+| --- | --- |
+| ![features_importances](/images/feature_importance.png) | ![features_importances2](/images/feature_importance_2.png) |
+
+### Result
 
 ### Model Evaluation
 
 Classification Report
 
+- 0 represents no constriction
+- 1 represents a constriction
+
 ![](images/class_report.png)
 
 Confusion Matrix
 
-![](images/cf_matrix.png)
-
+| Amounts | Percentages |
+| --- | --- |
+| ![](images/cf_matrix.png) | ![](images/cf_matrix_perc.png) |
 
 
