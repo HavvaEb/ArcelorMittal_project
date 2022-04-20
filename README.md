@@ -1,5 +1,9 @@
 # ArcelorMittal_project
 
+# Duration: 2 weeks
+  Deadline : 21/04/22 4:30 PM
+  Team challenge: Group project
+
 # Problem 
 
 The client asked us to predict a fault occuring during the production process (width constriction), using only data known a priori.
