@@ -1,0 +1,6 @@
+*.csv
+/assignment/*
+CoilData.csv
+data/SignalExport
+assignment/*
+*.csv
