@@ -74,17 +74,33 @@ When building our models we also looked at the importances of each feature so we
 
 ### Model Evaluation
 
-Classification Report
+#### Method 1
 
 - 0 represents no constriction
 - 1 represents a constriction
 
-![](images/class_report.png)
+![](images/class_report_M1.png)
 
 Confusion Matrix
 
 | Amounts | Percentages |
 | --- | --- |
-| ![](images/cf_matrix.png) | ![](images/cf_matrix_perc.png) |
+| ![](images/cf_matrix_M1.png) | ![](images/cf_matrix_perc_M1.png) |
+
+
+#### Method 2
+
+Classification Report
+
+- 0 represents no constriction
+- 1 represents a constriction
+
+![](images/class_report_M2.png)
+
+Confusion Matrix
+
+| Amounts | Percentages |
+| --- | --- |
+| ![](images/cf_matrix_M2.png) | ![](images/cf_matrix_perc_M2.png) |
 
 
