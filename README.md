@@ -137,9 +137,9 @@ Then we clean the coildata, because the data is imbalanced, we downsample the da
 
 # Contributors
 
-- # [Frédèrick Franck](https://github.com/FrederickFranck)
+- #### [Frédèrick Franck](https://github.com/FrederickFranck)
     - https://www.linkedin.com/in/fr%C3%A9d%C3%A8rick-franck/
-- # [Havva Ebrahimi Pour](https://github.com/HavvaEb)
+- #### [Havva Ebrahimi Pour](https://github.com/HavvaEb)
     - https://www.linkedin.com/in/havva-ebrahimi-pour/
-- # [Mahboubeh Faghih Mohammadi](https://github.com/mahboubehfaghih)
+- #### [Mahboubeh Faghih Mohammadi](https://github.com/mahboubehfaghih)
     - https://www.linkedin.com/in/mahboubeh-faghih-mohammadi/
