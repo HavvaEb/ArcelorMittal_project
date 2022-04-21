@@ -1,5 +1,11 @@
 # ArcelorMittal_project
 
+# Schedule
+
+- Duration: `2 weeks (11/04 - 21/04)`
+- Deadline : `21/04/22 4:30 PM`
+- Team challenge: Group project
+
 # Problem 
 
 The client asked us to predict a fault occuring during the production process (width constriction), using only data known a priori.
@@ -103,4 +109,37 @@ Confusion Matrix
 | --- | --- |
 | ![](images/cf_matrix_M2.png) | ![](images/cf_matrix_perc_M2.png) |
 
+# Installation
 
+Libraries used :
+
+
+- [numpy](https://numpy.org/)
+
+- [pandas](https://pandas.pydata.org/)
+
+- [matplotlib](https://matplotlib.org/)
+
+- [seaborn](https://seaborn.pydata.org/)
+
+- [sklearn](https://scikit-learn.org/stable/install.html)
+
+- [imbalanced-learn](https://imbalanced-learn.org/stable/index.html)
+
+
+# Usage
+
+First we define the labels by calculating the contrictions based on 2 different methods in [method_1](/notebooks/CalculateConstrictions_1.ipynb) & [method_2](/notebooks/CalculateConstrictions_2.ipynb).
+
+Then we clean the coildata, because the data is imbalanced, we downsample the data and use feature importance to optimize the models we build in the moddeling notebooks. Based on the model evaluations we choose the best one.
+
+
+
+# Contributors
+
+- # [Frédèrick Franck](https://github.com/FrederickFranck)
+    - https://www.linkedin.com/in/fr%C3%A9d%C3%A8rick-franck/
+- # [Havva Ebrahimi Pour](https://github.com/HavvaEb)
+    - https://www.linkedin.com/in/havva-ebrahimi-pour/
+- # [Mahboubeh Faghih Mohammadi](https://github.com/mahboubehfaghih)
+    - https://www.linkedin.com/in/mahboubeh-faghih-mohammadi/
