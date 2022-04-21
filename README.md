@@ -129,6 +129,8 @@ Libraries used :
 
 # Usage
 
+All notebooks are in the notebooks folder
+
 First we define the labels by calculating the contrictions based on 2 different methods in [method_1](/notebooks/CalculateConstrictions_1.ipynb) & [method_2](/notebooks/CalculateConstrictions_2.ipynb).
 
 Then we clean the coildata, because the data is imbalanced, we downsample the data and use feature importance to optimize the models we build in the moddeling notebooks. Based on the model evaluations we choose the best one.
